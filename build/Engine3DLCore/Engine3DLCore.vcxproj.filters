@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Work\Engine\Engine3DL\Engine3DLCore\src\Engine3DLCore\Utils\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Work\Engine\Engine3DL\Engine3DLCore\includes\Engine3DLCore\Utils\test.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Work\Engine\Engine3DL\Engine3DLCore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C08752F0-C71C-325A-B9AD-BB0B5F8507A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{455A6B7A-6A6D-3221-9BB6-E8FCA9D5D80E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

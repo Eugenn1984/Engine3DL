@@ -1,0 +1,10 @@
+^D:\WORK\ENGINE\ENGINE3DL\ENGINE3DLEDITOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Work/Engine/Engine3DL -BD:/Work/Engine/Engine3DL/build --check-stamp-file D:/Work/Engine/Engine3DL/build/Engine3DLEditor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
