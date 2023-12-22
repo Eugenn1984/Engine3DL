@@ -181,6 +181,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{A5531702-48C9-33AE-B8E8-7EE1338BFE4B}</Project>
       <Name>Engine3DLEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="\glfw\src\glfw.vcxproj">
+      <Project>{5DA5837D-A196-34B7-A381-8318FA7E607E}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
